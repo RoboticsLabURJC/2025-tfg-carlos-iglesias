@@ -1,23 +1,6 @@
 [
   
   {
-    "title": "Manos a la obra: desarrollo de Follow Line",
-    "url": "/2025-tfg-carlos-iglesias/posts/Week_2/",
-    "categories": "",
-    "tags": "Progreso Semanal",
-    "date": "2025-09-28 00:00:00 +0200",
-    
-
-
-
-
-
-    
-    "snippet": "Esta semana había que ponerse a trabajar un poco más serio con ROS2. Para ello, resolví el ejercicio Follow Line deRoboticsAcademy. El ejercicio se basa en detectar la línea roja de la imagen de la...",
-    "content": "Esta semana había que ponerse a trabajar un poco más serio con ROS2. Para ello, resolví el ejercicio Follow Line deRoboticsAcademy. El ejercicio se basa en detectar la línea roja de la imagen de la cámara, calcular la desviación con elcentro y controlar la velocidad angular del coche usando un controlador PIDEl programa es un nodo de ROS2 escrito en Python, con un suscriptor al topic de la cámara para recibir las imágenes de la misma,un publicador de las imágenes procesadas para poder verlas en el entorno de visualización y un publicador de velocidadesPara resolverlo se convierte la imagen a OpenCV, se pasa de BGR a HSV y se genera una máscara con las partes rojas de la imagen;así, se buscan los contornos y se calcula el centroide del mismo. Con el valor de coordenada x se calcula el error y así la velocidad angular medianteel PID. Estuve intentado crear un PID para controlar la velocidad lineal también, pero no fui capaz de terminar de afinarlo y se quedóavanzando a una velocidad constante. De todas formas, estoy contento con el resultado. Aquí adjunto un vídeo del resultado:A parte de esto, estuve también viendo cómo hacer este blog y viendo la guía para desarrolladores de RoboticsAcademy."
-  },
-  
-  {
     "title": "Primeros pasos: toma de contacto",
     "url": "/2025-tfg-carlos-iglesias/posts/Week_1/",
     "categories": "",
