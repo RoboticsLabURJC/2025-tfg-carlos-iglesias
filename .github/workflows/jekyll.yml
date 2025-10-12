@@ -10,29 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Clonar el repositorio
       - uses: actions/checkout@v4
 
-      # 2️⃣ Configurar Ruby
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
           bundler-cache: true  # cachea gems para acelerar builds
 
-      # 3️⃣ Instalar dependencias
       - name: Install dependencies
+        working-directory: docs
         run: bundle install
 
-      # 4️⃣ Construir el sitio
       - name: Build Jekyll site
+        working-directory: docs
         run: bundle exec jekyll build -d _site
 
-      # 5️⃣ Desplegar a GitHub Pages
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v6
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-          # opcional: puedes forzar push de cambios
-          # force_orphan: true
+          publish_dir: ./docs/_site
