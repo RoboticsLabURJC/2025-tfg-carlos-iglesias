@@ -4,7 +4,7 @@
   <id>https://roboticslaburjc.github.io/2025-tfg-carlos-iglesias/</id>
   <title>Carlos Iglesias Puerta</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-10-12T14:07:39+02:00</updated>
+  <updated>2025-10-12T14:20:47+02:00</updated>
   <author>
     <name>Carlos Iglesias Puerta</name>
     <uri>https://roboticslaburjc.github.io/2025-tfg-carlos-iglesias/</uri>
@@ -17,6 +17,44 @@
   <icon>/2025-tfg-carlos-iglesias/assets/img/favicons/favicon.ico</icon>
   <logo>/2025-tfg-carlos-iglesias/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Montando el blog y realizando primeras tareas</title>
+    <link href="https://roboticslaburjc.github.io/2025-tfg-carlos-iglesias/posts/Week_0/" rel="alternate" type="text/html" title="Montando el blog y realizando primeras tareas" />
+    <published>2025-10-06T00:00:00+02:00</published>
+  
+    <updated>2025-10-06T00:00:00+02:00</updated>
+  
+    <id>https://roboticslaburjc.github.io/2025-tfg-carlos-iglesias/posts/Week_0/</id>
+    <content src="https://roboticslaburjc.github.io/2025-tfg-carlos-iglesias/posts/Week_0/" />
+    <author>
+      <name>Hector</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Primeras tareas
+
+En mis primeros días de la realización de este trabajo tuve que informarme sobre ROS(Robot Operating System) y O3DE (Open 3D Engine).
+
+Después de informarme, instale el paquete o3de para Linux, teniendo en cuenta cumplir con los requisitos antes de la instalación, en la siguiente página: Versiones paquetes o3de para Linux.
+
+Al instalar el paquete, seguí la guia de instalación d...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>

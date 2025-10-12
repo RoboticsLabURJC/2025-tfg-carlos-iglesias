@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Montando el blog y realizando primeras tareas",
+    "url": "/2025-tfg-carlos-iglesias/posts/Week_0/",
+    "categories": "",
+    "tags": "Progreso Semanal",
+    "date": "2025-10-06 00:00:00 +0200",
+    
+
+
+
+
+
+    
+    "snippet": "Primeras tareasEn mis primeros días de la realización de este trabajo tuve que informarme sobre ROS(Robot Operating System) y O3DE (Open 3D Engine).Después de informarme, instale el paquete o3de pa...",
+    "content": "Primeras tareasEn mis primeros días de la realización de este trabajo tuve que informarme sobre ROS(Robot Operating System) y O3DE (Open 3D Engine).Después de informarme, instale el paquete o3de para Linux, teniendo en cuenta cumplir con los requisitos antes de la instalación, en la siguiente página: Versiones paquetes o3de para Linux.Al instalar el paquete, seguí la guia de instalación de o3de en Linux.Una vez ya instalado probamos ejecutar o3de para comprobar que funciona mediante el siguiente comando:/usr/local/bin/o3deUna vez comprobé que ya funcionaba en nativo, ahora tenía que probar otras dos cosas:  Desplegar o3de desde un contenedor docker: Descargar o3de en un contenedor y que al ejecutar se muestre la interfaz gráfica.  Desplegar o3de desde un contenedor docker usando la imagen de jdeRobot/robotics-backend:latest y mostrarlo mediante un servidor VNC: Descargar o3de en la imagen base y mostrar la interfaz gráfica mediante un servidor VNC(Virtual Network Computing).En el primer caso más sencillo, segui esta guia para arrancar aplicaciones software graficas en contenedores docker.En mi caso la parte de instalar Docker y el servidor X ya lo tenía hecho, así que pase a la tercera parte de habilitar el acceso del contenedor docker al servidor, crear el dockerfile para construir la imagen con o3de instalado y arrancar el contenedor.En este primer caso tuve algunos problemas en la construcción porque faltaban dependencias, pero poco más.En cuanto al segundo caso, con la imagen de jdeRobot y servidor VNC, no he podido lograrlo esta semana, debido a que aun no tengo del todo claro la estructura de RoboticsApplicationManager y como iniciar el servidor VNC.Montar el blogUna vez ya teniendo algo hecho en la primera semana, me tuve que poner a investigar como hacer el blog, apoyandome en los blogs de otros trabajos de fin de grado como: TFG Javier Izquierdo o TFG David Duro y de la guia para hacer el blog usando chirpy theme.Tuve algunos problemas con la construcción del mismo pero pudieron ser corregidos rápidamente."
+  },
+  
+  {
     "title": "Primeros pasos: toma de contacto",
     "url": "/2025-tfg-carlos-iglesias/posts/Week_1/",
     "categories": "",
