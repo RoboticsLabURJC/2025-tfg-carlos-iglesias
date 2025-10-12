@@ -1,4 +1,21 @@
 [
   
+  {
+    "title": "Primeros pasos: toma de contacto",
+    "url": "/2025-tfg-carlos-iglesias/posts/Week_1/",
+    "categories": "",
+    "tags": "Progreso Semanal",
+    "date": "2025-09-21 00:00:00 +0200",
+    
+
+
+
+
+
+    
+    "snippet": "Primeros pasosLo primero que hice fue desempolvar Ubuntu. Tenía la versión 20.04 y para el desarrollo precisaba tener la versión 22.04 Jammy JellyFish. Así que actualicé Ubuntu y me tiré un buen ra...",
+    "content": "Primeros pasosLo primero que hice fue desempolvar Ubuntu. Tenía la versión 20.04 y para el desarrollo precisaba tener la versión 22.04 Jammy JellyFish. Así que actualicé Ubuntu y me tiré un buen rato resolviendo diferentes problemas de dependencias de paquetes, repositorios que ya no existían etc.ROS2Durante esta semana me dediqué a volver a tomar un poco de contacto con ROS2. Descargé ROS2 Humble e instalé Gazebo Harmonic. Lo cierto es que tuve algún problema instalando Gazebo Harmonic (en la documentación de Gazebo indicaba que GZ Fortress era la versión recomendada y Harmonic requeriría “algo de esfuerzo” para hacerla funcionar), pero finalmente todo terminó funcionando de maravilla.Así estuve controlando Gazebo con algunos topics propios del mismo e hice un par de ejercicios sencillos de ROS2 (publicador-suscriptor).Por último, estuve revisando un par de trabajos de fin de grado de otros alumnos para así orientarme un poco."
+  }
+  
 ]
 
